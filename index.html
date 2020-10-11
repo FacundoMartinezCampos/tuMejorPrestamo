@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuMejorPrestamo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sansita+Swashed"">
+  <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  
+ 
+
+ <section class="firstsection"> 
+   <div class="waves">
+
+    <div class="container marginn">
+      <div class="row">
+        <h1 class="titulo1">tu</h1>
+        <h1 class="titulo2">Mejor</h1>
+        <h1 class="titulo1">Prestamo</h1>
+        <h1 class="titulo2">.com</h1>
+      </div>
+    </div>
+
+    <h1 class="firstsectionh1">
+     Compará los mejores prestamos en menos de un minuto
+   </h1>
+   <h2 class="secondsectionh2">
+     No se necesita informacion personal
+   </h2>
+   <span class="arrow"></span>
+   <div class="custom-shape-divider-bottom-1601624208">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
+  </div>
+ </section>
+
+<div class="container divprestamos">
+  
+  <form id="search_mini_form" class="prestamos">
+    <h4 class="textcenter formtitle">BUSCA TU PRESTAMO AHORA</h4>
+    <div class="row">
+      <div class="col-md-4 creditoinput">
+        <select id="cat" name="cantidad">
+          <option value="10000">$10.000</option>
+          <option value="25000">$25.000</option>
+          <option value="50000">$50.000</option>
+          <option value="50000">$75.000</option>
+          <option value="100000">$100.000</option>
+          <option value="100000">$150.000</option>
+          <option value="200000">$200.000</option>
+        </select>
+      </div>
+      <div class="col-md-4 creditoinput">
+        <select id="style" name="meses">
+          <option value="6">6 meses</option>
+          <option value="12">1 año</option>
+          <option value="24">2 años</option>
+          <option value="36">3 años</option>
+          <option value="48">4 años</option>
+          <option value="60">5 años</option>
+        </select> 
+      </div>
+      <div class="col-md-4">
+        <button class="bt button" title="Search" onClick="doSearch()">Comparar prestamos</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<a href="diezmil.html">test</a>
+
+
+
+  <script>
+    $('#search_mini_form').submit(function(){
+
+var mediums=$('#cat option:selected').text();
+var styles=$('#style option:selected').text();
+ if(styles=="6 meses" && mediums =="$10.000")
+ {
+     $('#search_mini_form').attr("action",'PaginasPrestamos/6m10.html');
+ }
+else if(styles =="6 meses" && mediums =="$25.000")
+{
+    $('#search_mini_form').attr("action",'veinticincomil12meses.html');
+}
+else if (styles =="6 meses" && mediums =="$50.000")
+{
+  $('#search_mini_form').attr("action",'diezmil24meses.html')
+}
+else if (styles =="6 meses" && mediums =="$75.000")
+{
+  $('#search_mini_form').attr("action",'diezmil24meses.html')
+}
+else if (styles =="6 meses" && mediums =="$100.000")
+{
+  $('#search_mini_form').attr("action",'diezmil24meses.html')
+}
+else if (styles =="6 meses" && mediums =="$150.000")
+{
+  $('#search_mini_form').attr("action",'diezmil24meses.html')
+}
+else if (styles =="6 meses" && mediums =="$200.000")
+{
+  $('#search_mini_form').attr("action",'diezmil24meses.html')
+}
+});
+  </script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

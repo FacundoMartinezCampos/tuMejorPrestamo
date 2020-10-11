@@ -1,0 +1,319 @@
+.marginn {
+  margin-top: 10px;
+}
+
+.titulo1 {
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: #094D73; 
+}
+
+
+.titulo2 {
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: #B64045;
+}
+
+
+.firstRow {
+  justify-content: space-between;
+}
+
+.firstContiner {
+  width: 80%!important;
+  border: solid 1px #DDDDDD;
+  margin-top: 1em;
+}
+
+
+.firstsectionh1 {
+  padding: 1.5em 1em 10px 1em ;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  background: -webkit-linear-gradient( #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.secondsectionh2 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 0.5em;
+}
+
+.firstsection {
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.textcenter {
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  background-color: deepskyblue;
+  min-height: 85vh;
+}
+
+.custom-shape-divider-bottom-1601624208 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1601624208 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 132px;
+}
+
+.custom-shape-divider-bottom-1601624208 .shape-fill {
+  fill: #FFFFFF;
+}
+
+input, select, textarea {
+  background: #fff;
+  border: none;
+  border-radius: 7px;
+  height: 45px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+
+.bt {
+  background: #1fe5a6;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  display: inline-block;
+  font-family: Poppins,Arial,Tahoma,Sans-Serif;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button {
+  height: 45px;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.prestamos {
+  background: #1483db;
+    border-radius: 7px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+
+.divprestamos {
+  padding-top: 25px;
+}
+
+.formtitle {
+  padding-bottom: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+
+
+select {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.creditoinput {
+  padding-bottom: 10px;
+}
+
+.arrow {
+  background: url(../img/Arrow-down.png);
+  background-size: auto 50%;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    bottom: -30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    display: block;
+    height: 66px;
+    left: 50%;
+    margin-left: -33px;
+    position: absolute;
+    width: 66px;
+    margin-bottom: 270px;
+    z-index: 5000000;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.prestamocontainer {
+  border: solid 1px #d8d9da;
+}
+
+
+.imagenPrestamo {
+width: 100px;
+height: 62px;
+max-width: 100px;
+max-height: 62;
+}
+
+.rowprestamo {
+  height: 170px;
+}
+
+.imagenBoton {
+  text-align: center;
+}
+
+.colpadding {
+  padding-left: 35px!important;
+  padding-top: 15px;
+}
+
+.botonConsultar {
+  background:    #008255;
+  border-radius: 4px;
+  padding:       15px 55px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 22px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-decoration: none!important; 
+}
+
+a:hover 
+{
+     color:#ffffff!important;  
+} 
+
+
+.botonPadding {
+  padding-top: 10px;
+}
+
+.parrafo {
+  padding-top: 15px;
+}
+
+.descripcionBanco {
+  font-size: 14px;
+  color: #444444;
+}
+
+.marginTop {
+  margin-top: 180px;
+}
+
+.borderRight {
+  border-right: solid 1px black;
+}
+
+.porcentaje {
+  color: blue;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.textoCentrado {
+  text-align: center;
+  color: #6e7c7d;
+  font-size: 18px;
+}
+
+.cantidadDinero {
+  color: black;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.marginTopContainer {
+  margin-top: 1em;
+}
+
+.porcentajeResponsive {
+    color: blue;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px
+}
+
+.cantidadDineroResponsive {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.textoCentradoResponsive {
+  text-align: center;
+  color: #6e7c7d;
+  font-size: 14px;
+}
+
+.tituloBanco {
+  font-weight: 700;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+.imagenResponsive {
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.botonConsultarResponsive {
+  background:    #008255;
+  border-radius: 4px;
+  padding:       15px 55px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 22px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-decoration: none!important; 
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 100%;
+}
+
+@media(min-width:1000px) {
+  .responsiveQuery{display:none;}
+}
+
+
+@media(max-width:1000px) {
+  .ResponsiveQuery2{display:none;}
+}
+
+
+
+@media(max-width:620px) {
+ .arrow{display:none;}
+}
+    
