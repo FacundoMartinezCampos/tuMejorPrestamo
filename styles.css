@@ -160,7 +160,24 @@ select {
 
  @media(max-width:620px) {
   .custom-shape-divider-bottom-1601624208{display:none;}
+  .titulo1 {
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: #094D73; 
+    font-size: 30px;
+  }
+  .titulo2 {
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: #B64045;
+  font-size: 30px;
+  }
+  .marginleft {
+    margin-left: 1em;
+  }
  }
+
+
  
      
 
